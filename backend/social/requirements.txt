@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+SQLAlchemy
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+python-dotenv
+testcontainers[postgresql]
+asyncpg
+sse-starlette
+slowapi
