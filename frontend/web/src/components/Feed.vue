@@ -1,24 +1,9 @@
-<template>
-  <div class="feed">
-    <ServiceCard title="Boat Tour" description="Explore the coast!" price="150" />
-    <ServiceCard title="Fishing Trip" description="Catch some fish!" price="200" />
-  </div>
-</template>
-
-<script>
-import ServiceCard from './ServiceCard.vue';
-
-export default {
-  components: {
-    ServiceCard
-  }
-}
+<script setup lang="ts">
 </script>
 
-<style scoped>
-.feed {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-</style>
+<template>
+  <section class="p-8">
+    <h1 class="text-2xl font-bold mb-4">Boat-able Feed</h1>
+    <p>This is where the social feed will appear.</p>
+  </section>
+</template>
